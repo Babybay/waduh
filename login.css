@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gaya halaman login */
+  body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  form .button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-text {
+    color: #333;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  

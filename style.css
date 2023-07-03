@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gaya header */
+  header {
+    background-color: #ffcc00;
+    padding: 20px;
+    color: #333;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+  }
+  
+  /* Gaya navigasi */
+  nav ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .footer-content p {
+    font-size: 14px;
+  }
+  

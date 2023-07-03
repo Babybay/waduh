@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kontak Retro</title>
+  <link rel="stylesheet" type="text/css" href="kontak.css">
+</head>
+<body>
+  <button onclick="goBack()">Kembali</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  <header>
+    <h1>Kontak</h1>
+  </header>
+  
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Informasi Kontak</h2>
+      <ul>
+        <li><strong>Alamat:</strong> Jalan Retro No. 123, Kota Retro</li>
+        <li><strong>Email:</strong> contact@retrowebsite.com</li>
+        <li><strong>Telepon:</strong> 123-456-789</li>
+      </ul>
+    </div>
+    
+    <div class="contact-form">
+      <h2>Hubungi Kami</h2>
+      <form>
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Pesan"></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Retro Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
